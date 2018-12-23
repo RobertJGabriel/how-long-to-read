@@ -1,6 +1,6 @@
 {
   "name": "how-long-to-read",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Tell how long it will take to read a string(amount of words)",
   "homepage": "https://www.robertgabriel.ninja",
   "author": {
@@ -33,7 +33,6 @@
     "npm": ">= 4.0.0"
   },
   "scripts": {
-    "prepublishOnly": "nsp check",
     "pretest": "eslint .",
     "precommit": "lint-staged",
     "test": "jest"
