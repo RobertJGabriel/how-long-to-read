@@ -12,7 +12,7 @@ $ npm install --save how-long-to-read
 ```js
 const howLongToRead = require('how-long-to-read');
 
-howLongToRead('Rainbow');
+howLongToRead().time('Rainbow') // returns 1 as in minutues;
 ```
 ## License
 
